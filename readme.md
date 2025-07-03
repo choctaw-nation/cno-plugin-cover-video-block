@@ -4,6 +4,10 @@ A block that allows a user to set a background video using the [CNO Lite Vimeo b
 
 ## Changelog
 
+### v1.1.1
+
+-   Fixed: Video no longer overflows on Safari / Webkit
+
 ### v1.1.0
 
 -   Added: Inner Content now supports drop shadow and content bg bar
