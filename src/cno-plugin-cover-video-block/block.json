@@ -12,19 +12,29 @@
 		"html": false,
 		"align": true,
 		"alignWide": true,
-		"lock": true
+		"lock": true,
+		"layout": true
 	},
 	"attributes": {
 		"overlayColor": {
+			"type": "string"
+		},
+		"hasDropShadow": { "type": "boolean", "default": true },
+		"contentBgColor": {
 			"type": "string"
 		},
 		"minHeight": {
 			"type": "number",
 			"default": "430"
 		},
-		"lock": {
+		"spacing": {
 			"type": "object",
-			"default": { "move": false, "remove": true }
+			"properties": {
+				"padding": {
+					"type": "string",
+					"default": "0"
+				}
+			}
 		},
 		"align": { "type": "string", "default": "full" }
 	},
