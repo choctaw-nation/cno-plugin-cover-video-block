@@ -5,6 +5,12 @@
 	"author": "Choctaw Nation of Oklahoma",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
+	"files": [
+		"readme.md",
+		"build",
+		"cno-plugin-cover-video-block.php",
+		"LICENSE"
+	],
 	"scripts": {
 		"build": "wp-scripts build --blocks-manifest",
 		"format": "wp-scripts format",
