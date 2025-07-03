@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cno-cover-video/cno-plugin-cover-video-block",
+	"version": "0.1.0",
+	"title": "CNO Cover (Video) Block",
+	"category": "media",
+	"icon": "block-default",
+	"description": "A cover block that uses lite-vimeo to display background videos",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": true,
+		"alignWide": true,
+		"lock": true
+	},
+	"attributes": {
+		"overlayColor": {
+			"type": "string"
+		},
+		"minHeight": {
+			"type": "number",
+			"default": "430"
+		},
+		"lock": {
+			"type": "object",
+			"default": { "move": false, "remove": true }
+		},
+		"align": { "type": "string", "default": "full" }
+	},
+	"keywords": [ "video", "cover", "background video", "lite vimeo" ],
+	"allowedBlocks": [],
+	"textdomain": "cno-plugin-cover-video-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
