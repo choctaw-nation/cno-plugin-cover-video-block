@@ -1,6 +1,6 @@
 {
 	"name": "cno-plugin-cover-video-block",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "A cover block that uses lite-vimeo to display background videos",
 	"author": "Choctaw Nation of Oklahoma",
 	"license": "GPL-2.0-or-later",
