@@ -4,6 +4,10 @@ A block that allows a user to set a background video using the [CNO Lite Vimeo b
 
 ## Changelog
 
+### v1.1.0
+
+-   Added: Inner Content now supports drop shadow and content bg bar
+
 ### v1.0.0
 
 -   Init block!

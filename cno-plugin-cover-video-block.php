@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       CNO Cover (Video) Block
  * Description:       A cover block that uses lite-vimeo to display background videos
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 6.7
  * Tested Up To:      6.8.1
  * Requires PHP:      8.2

@@ -16,6 +16,18 @@
 	&__content-container {
 		position: relative;
 		z-index: 1;
+		width: 100%;
+		background-color: var(--content-bg-color);
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p {
+			text-shadow: var(--drop-shadow, 0);
+		}
 	}
 
 	.wp-block-cno-lite-vimeo-cno-plugin-lite-vimeo-block {
