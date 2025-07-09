@@ -13,6 +13,7 @@ import {
 	ToggleControl,
 } from '@wordpress/components';
 import { homeButton } from '@wordpress/icons';
+import './editor.scss';
 import './style.scss';
 import metadata from './block.json';
 import { select } from '@wordpress/data';
@@ -26,6 +27,8 @@ const innerBlocksArgs = {
 			{
 				lock: { move: true, remove: true },
 				spacing: { padding: 0 },
+				disableTracking: true,
+				autoPlay: true,
 				align: 'full',
 			},
 		],
@@ -141,7 +144,7 @@ registerBlockType( metadata.name, {
 									}
 									label="Set a min height for the container on desktop screens"
 									help="Height in pixels"
-									min={ 100 }
+									min={ 300 }
 									max={ 900 }
 								/>
 							</PanelRow>
