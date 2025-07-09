@@ -1,0 +1,10 @@
+.wp-block-cno-cover-video-cno-plugin-cover-video-block {
+	&__content-container {
+		z-index: 2;
+	}
+
+	.wp-block-cno-lite-vimeo-cno-plugin-lite-vimeo-block {
+		z-index: 1;
+		pointer-events: none;
+	}
+}
